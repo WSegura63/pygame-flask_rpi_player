@@ -1,0 +1,38 @@
+<html>
+	
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {background: #eee;}
+
+.play {color: green;}
+.stop {color: red;}
+.prev {color: orange;}
+.next {color: orange;}
+
+</style>
+</head>
+	
+<body>
+	<form method="post" action="/">
+
+		<h2>Reproductor de música usando Python, Flask y pygame</h2>
+
+		<button type="submit" name="playsong" class="btn play" value="playsong">Play</button>
+		<button type="submit" name="stopsong" class="btn stop" value="stopsong">Stop</button>
+		<button type="submit" name="prevsong" class="btn prev" value="prevsong">Prev</button>
+		<button type="submit" name="nextsong" class="btn next" value="nextsong">Next</button>
+
+		</h2>
+	</form>
+</body>
+</html>
