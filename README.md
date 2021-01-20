@@ -1,5 +1,5 @@
 # pygame-flask_rpi_player
-Reproductor de música para Raspberry Pi con controles HTML. Creado utilizando Flask y Pygame.
+Reproductor de música desde un servidor en tu Raspberry Pi con controles HTML. Creado utilizando Flask y Pygame.
 
 Notas:
 Si quieres probar el programa, incluye tus propios archivos de audio. Renómbralos de la siguiente manera:
